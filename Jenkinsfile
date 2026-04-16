@@ -5,7 +5,7 @@ pipeline {
         JAVA_HOME = "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot"
         PATH = "${JAVA_HOME}\\bin;${env.PATH}"
     }
-
+    //these are stages
     stages {
 
         stage('Verify Environment') {
